@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UltraTech Cement</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: aqua;
+            color: black;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .image { 
+            float: left;
+             margin-right: 10px;
+             margin-left: 50px;
+        }
+        .image1 { 
+            float: right;
+             margin-right: 10px;
+             margin-left: 50px;
+        }
+        .button{
+            float: right;
+            
+             margin-right: 50px;
+             margin-left: 50px;
+            color: black; 
+            padding: 20px 20px; 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer;
+        }
+        .button:hover { 
+            background-color: #45a049; 
+        }
+        nav {
+            background-color: yellow;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .moving-line { width: 100%; 
+            white-space: nowrap; 
+            overflow: hidden; 
+            box-sizing: border-box;
+         } 
+        .moving-line span { display: inline-block; 
+            padding-left: 100%; 
+            animation: marquee 10s linear infinite; 
+        }
+         @keyframes marquee { 0% { transform: translate(0, 0);
+         }
+          100% { transform: translate(-100%, 0); 
+        } }
+        .image3{
+            display: block;
+             margin-left: auto;
+              margin-right: auto;
+        }
+    
+.search-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+.search-container form {
+    display: flex;
+    width: 100%;
+    background-color: lightyellow;
+}
+
+.search-container input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.search-container button {
+    padding: 10px;
+    border: 2px solid lightcoral;
+    background-color: lightcoral;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: lightcoral;
+    border-color: lightcoral;
+}
+
+
+.image2{
+            display: block;
+             margin-left: auto;
+              margin-right: auto;
+              cursor: pointer;
+        }
+.set{
+    padding: 10px;
+    margin: 10px;
+    margin-left: 130px;
+}
+        
+     footer { background-color: #333;
+         color: white;
+          text-align: center;
+           padding: 10px 0; position: fixed; 
+           width: 100%; bottom: 0;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/miniproject/ultratech-cement-logo.png" alt="" width="130px" height="80px" class="image">
+        <img src="/miniproject/ultratech-main-logo.jpeg" alt=""  width="130px" height="80px" class="image1">
+        <button class="button"><b>Get in Touch</b> </button>
+            
+        <h1>UltraTech Cement</h1>
+    </header>
+    <nav>
+        <a href="#ForHomeBuilder">For HomeBuilder</a>
+        <a href="#products"> for Infracture </a>
+        <a href="#contact">   Contact</a>
+    </nav>
+    <div class="moving-line"> 
+        <span><b> Important-Welcome to UltraTech Cement's website! Stay tuned for our latest updates and products  it is useful to UltraTech Cement's website! . </b></span>
+     </div>
+
+     <div>
+        <img src="/miniproject/home-banner-desktop-1.png" alt="" width="80%" class="image3" >
+     </div>
+    
+     <div class="search-container">
+        <p><b>Find Answer Here </b></p>
+         <form action="/search" method="get"> 
+            <input type="text" placeholder="Search..." name="search"> 
+            <button type="submit">Search</button> 
+        </form> 
+    </div>
+   
+    <div>
+        <img src="/miniproject/Type-Of-Climate-Updated.jpg" alt="" class="image2" width="80%">
+    </div>
+
+
+    <div class="set">
+        <h2><b>Homes Building tools to help start planning your home</b></h2>
+        <p>Essential tools to help you take informed decisions while planning to build your home</p>
+    </div>
+    <div class="grid-container">
+        <div>
+            
+        </div>
+
+    </div>
+    <footer>
+        <p>&copy; 2024 UltraTech Cement Limited</p>
+    </footer>
+</body>
+</html>
